@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: application
+spec:
+  containers:
+    - image: 080196/hello-redis
+      name: application
+
+# kubectl run hello-redis --image=080196/hello-redis
